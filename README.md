@@ -1,2 +1,18 @@
 # Portfolio-Website-Ikigai-Studios
 Portfolio Website for college project Ikigai Studios
+
+replace php.ini file in c/xampp/php
+replace sendmail.ini file in c/xampp/sendmail
+
+open xampp
+start apache and mysql
+go to localhost/phpmyadmin
+make a database called ikigai
+make a table called enquiry
+4 columns - 
+name (type = text)
+email (type = varchar(50) and primary key)
+phone (type = bigint(11) )
+totalquery (type = bigint(4) )
+
+run http://localhost/project/html/index.html
